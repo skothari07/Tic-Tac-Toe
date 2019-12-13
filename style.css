@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+#main-header {
+    background-color: black;
+    color:red;
+    padding: 10px;
+    text-align: center;
+}
+#player-status {
+    padding: 5px;
+    column-count: 2;
+    text-align: center;
+}
+#game-area{
+    padding: 50px;
+}
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    padding: 30px;
+    cursor: pointer;
+  }
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.box:hover {
+    background-color: crimson;
+}
+.winner{
+    color: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scriptnew.js"></script>
+</head>
+<body>
+    <header id="main-header"><h1>Tic Tac Toe</h1></header>
+    <section id="player-status">
+        <p>Player 1</p>
+        <p>Player 2</p>
+    </section>
+    <section id="game-area">
+        <table class='center'>
+            <tr>
+                <td class="box" id='00' onclick="start(0,0,0)"></td>
+                <td class="box" id='01' onclick="start(0,1,1)"></td>
+                <td class="box" id='02' onclick="start(0,2,2)"></td>
+            </tr>
+            <tr>
+                <td class="box" id='10' onclick="start(1,0,3)"></td>
+                <td class="box" id='11' onclick="start(1,1,4)"></td>
+                <td class="box" id='12' onclick="start(1,2,5)"></td>
+            </tr>
+            <tr>
+                <td class="box" id='20' onclick="start(2,0,6)"></td>
+                <td class="box" id='21' onclick="start(2,1,7)"></td>
+                <td class="box" id='22' onclick="start(2,2,8)"></td>
+            </tr>            
+        </table><br><br>
+        <button onclick="reset()" id='b1'>Reset</button>
+
+    </section>
+</body>
+</html>
+
